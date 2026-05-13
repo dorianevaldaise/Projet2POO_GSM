@@ -36,5 +36,5 @@ public class Tablette extends MS {
     public String toString() {
         return super.toString() + " [Tablette | SIM=" + (supportCarteSim ? "Oui" : "Non") + " | Écran=" + tailleEcran + "\"]";
     }
-    
-}
+
+    }

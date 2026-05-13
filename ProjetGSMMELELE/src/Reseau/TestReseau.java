@@ -9,11 +9,11 @@ package Reseau;
  * @author Mahone
  */
 public class TestReseau {
-
+  
     public static void main(String[] args) {
 
         System.out.println("============================================");
-        System.out.println("  SIMULATION RESEAU GSM - PROJET POO");
+        System.out.println("  SIMULATION RESEAU GSM - PROJET POO MELELE Doriane");
         System.out.println("============================================");
 
         // ==========================================
@@ -50,7 +50,7 @@ public class TestReseau {
         // TEST 3 : Creation des utilisateurs
         // ==========================================
         System.out.println("\n--- TEST 3 : Creation des utilisateurs ---");
-
+       
         MS user1 = new Smartphone("Diop", "Mamadou", "pass123",
                                   "771234567", "IMSI001", "Android", 6.5);
         MS user2 = new Smartphone("Ndiaye", "Awa", "pass456",
@@ -143,7 +143,7 @@ public class TestReseau {
         // FIN
         // ==========================================
         System.out.println("\n============================================");
-        System.out.println("  FIN DE LA SIMULATION");
+        System.out.println("  FIN DE LA SIMULATION MELELE Doriane");
         System.out.println("============================================");
     }
 }

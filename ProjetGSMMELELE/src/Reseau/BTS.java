@@ -10,7 +10,7 @@ package Reseau;
  */
 import java.util.ArrayList;
 public class BTS {
- 
+    
     private String numero;
     private String emplacement;
     private double hauteur;
@@ -30,7 +30,7 @@ public class BTS {
         this.puissanceEmission = puissanceEmission;
         this.nbMaxUtilisateurs = nbMaxUtilisateurs;
         this.msAttaches = new ArrayList<>();
-    }
+}
 
     public boolean ajouterMS(MS ms) {
         if (msAttaches.size() < nbMaxUtilisateurs) {

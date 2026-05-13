@@ -9,7 +9,7 @@ package Reseau;
  * @author Mahone
  */
 import java.util.ArrayList;
-
+    
 public abstract class MS implements InterfaceMS {
 
     protected String nom;
@@ -28,7 +28,7 @@ public abstract class MS implements InterfaceMS {
         this.imsi = imsi;
         this.btsAttache = null;
         this.appelsRecus = new ArrayList<>();
-    }
+}
 
     @Override
     public boolean sAttacher(BTS bts) {

@@ -11,7 +11,7 @@ package Reseau;
 import java.util.ArrayList;
 
 public class Reseau {
- 
+    
     private String nom;
     private double frequenceUplink;
     private double frequenceDownlink;
@@ -32,7 +32,7 @@ public class Reseau {
         this.debitMaxDownlink = debitMaxDownlink;
         this.delaiMax = delaiMax;
         this.listeBTS = new ArrayList<>();
-    }
+}
 
     public void ajouterBTS(BTS bts) {
         if (bts != null) {

@@ -8,7 +8,7 @@ package Reseau;
  *
  * @author Mahone
  */
-
+    
 public class EtatCelluleException extends Exception {
 
     public EtatCelluleException(String message) {

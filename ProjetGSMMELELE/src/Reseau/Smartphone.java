@@ -8,7 +8,7 @@ package Reseau;
  *
  * @author Mahone
  */
-
+ 
 public class Smartphone extends MS {
 
     private String systemeExploitation;
@@ -19,7 +19,7 @@ public class Smartphone extends MS {
         super(nom, prenom, motDePasse, msisdn, imsi);
         this.systemeExploitation = systemeExploitation;
         this.tailleEcran = tailleEcran;
-    }
+}
 
     @Override
     public void afficherType() {
